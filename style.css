@@ -20,5 +20,8 @@
 .food-image.temaki img{transform:translate(-85%,-32%)}
 .food-image.atum img{transform:translate(-85%,-62%)}
 .food-image.misto img{transform:translate(-85%,-48%)}
-.food-image.big img{width:max(240%,800px);left:50%;top:0;transform:translate(-42%,-47%)}
+.food-image.big img{width:max(240%,800px);left:50%;top:0;transform:translate(-36%,-47%)}
 .food-image.poke img{width:max(300%,900px);left:50%;top:0;transform:translate(-80%,-41%)}
+
+
+.extra-card{display:flex;min-height:200px;border-top:2px solid var(--red)}
