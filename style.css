@@ -10,3 +10,15 @@
 .food-image.misto img{top:0;transform:translateY(-47%)}
 .food-image.big img{top:0;transform:translateY(-37%)}
 .food-image.poke img{top:0;transform:translateY(-36%)}
+/* Product-only framing: keep all printed menu labels outside the visible photo. */
+.hero-photo img{width:max(300%,1100px);left:50%;top:0;transform:translate(-80%,-19%)}
+.food-image.combo1 img,.food-image.combo2 img,.food-image.combo3 img{width:max(300%,780px);left:50%;top:0}
+.food-image.combo1 img{transform:translate(-80%,-19%)}
+.food-image.combo2 img{transform:translate(-80%,-40%)}
+.food-image.combo3 img{transform:translate(-80%,-63%)}
+.food-image.temaki img,.food-image.atum img,.food-image.misto img{width:max(340%,1100px);left:50%;top:0}
+.food-image.temaki img{transform:translate(-85%,-32%)}
+.food-image.atum img{transform:translate(-85%,-62%)}
+.food-image.misto img{transform:translate(-85%,-48%)}
+.food-image.big img{width:max(240%,800px);left:50%;top:0;transform:translate(-42%,-47%)}
+.food-image.poke img{width:max(300%,900px);left:50%;top:0;transform:translate(-80%,-41%)}
